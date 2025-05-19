@@ -1,0 +1,10 @@
+sudo nano /etc/default/locale
+
+
+LANG="     .UTF-8"
+LC_ALL="      .UTF-8"
+
+sudo locale-gen en_In.UTF-8
+sudo update-locale
+
+reboot
